@@ -1,0 +1,10 @@
+{
+  "name": "my-app",
+  "private": true,
+  "workspaces":[
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
